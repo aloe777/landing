@@ -1,0 +1,778 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@400;600;700&display=swap");
+@font-face {
+  font-family: 'Lato Semibold';
+  src: url("/fonts/Lato-Semibold.ttf");
+  font-weight: 500;
+  font-style: normal; }
+@font-face {
+  font-family: 'Lato Heavy';
+  src: url("/fonts/Lato-Heavy.ttf");
+  font-weight: 900;
+  font-style: normal; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/_base\.scss}line{font-family:\000031}}
+body {
+  padding: 0;
+  font-size: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/_base\.scss}line{font-family:\000035}}
+html,
+body {
+  width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/_base\.scss}line{font-family:\000039}}
+header {
+  color: #ffff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/_base\.scss}line{font-family:\0000312}}
+a {
+  font-size: 1.25em;
+  text-decoration: none;
+  color: #ffff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/_base\.scss}line{font-family:\0000319}}
+h1 {
+  font-family: "Cabin", sans-serif;
+  font-weight: 700;
+  font-size: 4em;
+  line-height: normal;
+  color: #ffff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/_base\.scss}line{font-family:\0000326}}
+h2 {
+  color: #0b036b;
+  font-family: "Cabin", sans-serif;
+  font-weight: 700;
+  font-size: 3.125em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/_base\.scss}line{font-family:\0000332}}
+h5 {
+  font-family: "Lato Heavy", sans-serif;
+  font-weight: 900;
+  font-size: 1.375em;
+  color: #fff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/_base\.scss}line{font-family:\0000339}}
+.logo__link {
+  font-size: 1.25em;
+  font-family: "Cabin", sans-serif;
+  font-weight: 600;
+  margin-left: 3em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/_base\.scss}line{font-family:\0000346}}
+.wraper {
+  max-width: 100%;
+  margin: 0 auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/_base\.scss}line{font-family:\0000352}}
+.container {
+  max-width: 1020px;
+  padding: 0 10px;
+  margin: 0 auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/_base\.scss}line{font-family:\0000358}}
+.container-colum {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5.5em; }
+
+@media (max-width: 1180px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/_base\.scss}line{font-family:\0000365}}
+  .peaple__ferst {
+    overflow: hidden; } }
+@media (max-width: 860px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/_base\.scss}line{font-family:\0000371}}
+  .peaple {
+    visibility: hidden;
+    position: absolute; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/_base\.scss}line{font-family:\0000375}}
+  .benifit {
+    padding-left: 7em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/_base\.scss}line{font-family:\0000378}}
+  .pictures {
+    position: absolute;
+    visibility: hidden; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/_base\.scss}line{font-family:\0000382}}
+  .content {
+    padding-left: 12em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/_base\.scss}line{font-family:\0000386}}
+  .inst-img {
+    visibility: hidden;
+    position: absolute; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/_base\.scss}line{font-family:\0000390}}
+  .foto2 {
+    visibility: hidden; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/_base\.scss}line{font-family:\0000393}}
+  .foto1 {
+    visibility: hidden; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/_base\.scss}line{font-family:\0000399}}
+  .footer-grid {
+    width: 800px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/_base\.scss}line{font-family:\00003103}}
+  .form {
+    max-width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/_base\.scss}line{font-family:\00003106}}
+  .text-cart {
+    max-width: 100%; } }
+@media (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/_base\.scss}line{font-family:\00003112}}
+  .nav__item {
+    margin: 10px 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/_base\.scss}line{font-family:\00003116}}
+  .footer-grid {
+    width: 700px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/_base\.scss}line{font-family:\00003120}}
+  .form {
+    max-width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/_base\.scss}line{font-family:\00003123}}
+  .text-cart {
+    max-width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/_base\.scss}line{font-family:\00003126}}
+  .benifit {
+    padding-left: 4em; } }
+@media (max-width: 650px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/_base\.scss}line{font-family:\00003132}}
+  .footer-grid {
+    width: 550px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/_base\.scss}line{font-family:\00003135}}
+  .form {
+    max-width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/_base\.scss}line{font-family:\00003138}}
+  .text-cart {
+    max-width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/_base\.scss}line{font-family:\00003141}}
+  .form {
+    max-width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/_base\.scss}line{font-family:\00003144}}
+  .benifit {
+    padding-left: 4em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/_base\.scss}line{font-family:\00003147}}
+  .instructor {
+    padding-left: 2em; } }
+@media (max-width: 540px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/_base\.scss}line{font-family:\00003153}}
+  .footer-grid {
+    width: 450px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/_base\.scss}line{font-family:\00003157}}
+  .box-student {
+    max-width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/_base\.scss}line{font-family:\00003160}}
+  .benifit {
+    padding-left: 1em; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/style\.scss}line{font-family:\000037}}
+.wraper-top {
+  background-image: url("/img/header/bg-hd.webp");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/style\.scss}line{font-family:\0000313}}
+.upper-blok {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3em 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/style\.scss}line{font-family:\0000319}}
+.top-head__bg {
+  background-image: url("/img/header/bg-hd.webp");
+  width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/style\.scss}line{font-family:\0000324}}
+.nav__list {
+  list-style-type: none;
+  display: flex;
+  gap: 3em 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/style\.scss}line{font-family:\0000329}}
+.nav__link {
+  padding: 0.6em 1em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/style\.scss}line{font-family:\0000332}}
+.nav a:hover {
+  padding: 0.6em 1em;
+  border-radius: 1em;
+  background-color: #0b036b;
+  transition: background-color 0.3s ease; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/style\.scss}line{font-family:\0000338}}
+.nav a:active {
+  color: tomato; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/style\.scss}line{font-family:\0000345}}
+.content {
+  padding-top: 6em;
+  display: flex;
+  flex-direction: column;
+  gap: 2em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/style\.scss}line{font-family:\0000352}}
+  .content__text {
+    color: #ffff;
+    font-family: "Cabin", sans-serif;
+    font-weight: 400;
+    line-height: normal;
+    font-size: 1.12em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/style\.scss}line{font-family:\0000359}}
+  .content__btn {
+    text-align: center;
+    color: #ffff;
+    font-family: "Cabin", sans-serif;
+    font-weight: 600;
+    font-size: 1.56em;
+    background-image: linear-gradient(to bottom, #a181ff 1%, rgba(135, 93, 255, 0) 314%);
+    cursor: pointer;
+    height: 2.5em;
+    width: 10em;
+    border-radius: 13px;
+    border: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/style\.scss}line{font-family:\0000376}}
+  .content__btn:hover {
+    background-color: #0b036b;
+    transition: background-color 0.3s ease; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/style\.scss}line{font-family:\0000380}}
+  .content__btn:active {
+    color: tomato; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/style\.scss}line{font-family:\0000387}}
+.container-caunter {
+  display: flex;
+  justify-content: space-around; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/style\.scss}line{font-family:\0000391}}
+.caunter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin: 16em 0 6.5em 0;
+  width: 9.25em;
+  height: 10.12em;
+  background-color: #ffff;
+  border: 5px solid #d9ccff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/style\.scss}line{font-family:\00003101}}
+  .caunter__img {
+    width: 3.7em;
+    height: 3.7em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/style\.scss}line{font-family:\00003105}}
+  .caunter__num {
+    font-family: "Cabin", sans-serif;
+    font-size: 1.563em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/style\.scss}line{font-family:\00003109}}
+  .caunter__name {
+    font-family: "Poppins", sans-serif;
+    font-size: 0.938em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/style\.scss}line{font-family:\00003113}}
+  .caunter span {
+    font-weight: 700;
+    line-height: normal;
+    color: #6f3dff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/style\.scss}line{font-family:\00003121}}
+.container-cart {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/style\.scss}line{font-family:\00003126}}
+.text-cart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 43.75em;
+  text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/style\.scss}line{font-family:\00003134}}
+  .text-cart__par {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 1.875em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/style\.scss}line{font-family:\00003140}}
+.cart {
+  margin-top: 10em;
+  display: flex;
+  flex-direction: column;
+  width: 18em;
+  height: 25em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/style\.scss}line{font-family:\00003147}}
+.cart__img {
+  object-fit: contain;
+  width: 18em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/style\.scss}line{font-family:\00003151}}
+.cart__title {
+  color: #0b036b;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 1.563em;
+  margin: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/style\.scss}line{font-family:\00003158}}
+.cart__text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 0.938em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/style\.scss}line{font-family:\00003165}}
+.caunt {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/style\.scss}line{font-family:\00003170}}
+.lesson-play {
+  display: flex;
+  gap: 0.6em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/style\.scss}line{font-family:\00003173}}
+  .lesson-play .caunt__lesson {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    color: #0b036b; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/style\.scss}line{font-family:\00003179}}
+.result {
+  width: 3.5em;
+  height: 1.563em;
+  background-color: #794bff;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/style\.scss}line{font-family:\00003188}}
+  .result__num {
+    color: #ffff;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 0.875em;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    gap: 0.4em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/style\.scss}line{font-family:\00003199}}
+  .result a:after {
+    content: "";
+    background-image: url("/img/svg/star.svg");
+    background-repeat: no-repeat;
+    width: 0.625em;
+    height: 0.625em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/style\.scss}line{font-family:\00003207}}
+.box-cart {
+  display: flex;
+  text-align: center;
+  flex-flow: wrap;
+  gap: 3em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/style\.scss}line{font-family:\00003217}}
+.wraper-benifit {
+  background-color: #784bfe; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/style\.scss}line{font-family:\00003220}}
+.container-benifit {
+  font-family: "Lato", sans-serif;
+  color: #ffff;
+  margin-top: 10em;
+  padding: 2em 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 1400px;
+  gap: 2em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/style\.scss}line{font-family:\00003231}}
+.peaple {
+  object-fit: cover; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/style\.scss}line{font-family:\00003236}}
+.benifit {
+  display: flex;
+  flex-direction: column; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/style\.scss}line{font-family:\00003239}}
+  .benifit__title {
+    font-weight: 900;
+    font-size: 3em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/style\.scss}line{font-family:\00003244}}
+.benefit-info {
+  display: flex;
+  align-items: end;
+  gap: 2em;
+  padding-top: 2em;
+  width: 32em;
+  height: 6.25em;
+  display: flex;
+  justify-content: space-between; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/style\.scss}line{font-family:\00003255}}
+  .benefit-info__title {
+    font-size: 1.5em;
+    font-weight: 700;
+    margin-bottom: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/style\.scss}line{font-family:\00003260}}
+  .benefit-info__text {
+    font-size: 0.875em;
+    font-weight: 400; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/style\.scss}line{font-family:\00003265}}
+.benifit-img {
+  background-color: #ffff;
+  height: 3.125em;
+  width: 3.125em;
+  border-radius: 130px;
+  padding: 0.9em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/style\.scss}line{font-family:\00003275}}
+.container-inst {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 5em;
+  padding: 8em 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/style\.scss}line{font-family:\00003281}}
+.instructor {
+  font-family: "Lato", sans-serif;
+  color: #0b036b;
+  display: flex;
+  flex-direction: column;
+  padding: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/style\.scss}line{font-family:\00003288}}
+  .instructor__title {
+    font-weight: 900;
+    font-size: 3em;
+    margin-bottom: 2.5rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/style\.scss}line{font-family:\00003293}}
+  .instructor__text {
+    color: #000000;
+    font-weight: 400;
+    font-size: 1.125em;
+    float: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/style\.scss}line{font-family:\00003299}}
+  .instructor__btn {
+    margin-top: 1em;
+    width: 15.75em;
+    height: 3.563em;
+    font-size: 1.375em;
+    background: none;
+    border: 2px solid #794bff;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #794bff;
+    font-family: "Lato Semiold", sans-serif;
+    font-weight: 600; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/style\.scss}line{font-family:\00003312}}
+  .instructor__btn:hover {
+    background-color: #0b036b;
+    color: #ffff;
+    transition: background-color 0.3s ease; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/style\.scss}line{font-family:\00003317}}
+  .instructor__btn:active {
+    color: tomato; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/style\.scss}line{font-family:\00003321}}
+.inst-img {
+  padding-top: 4em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/style\.scss}line{font-family:\00003327}}
+.container-student {
+  font-family: "Lato", sans-serif;
+  padding-bottom: 15em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/style\.scss}line{font-family:\00003331}}
+.box-student {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1.5em;
+  width: 40rem;
+  margin: auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/style\.scss}line{font-family:\00003340}}
+.student-title {
+  font-weight: 900;
+  font-size: 3em;
+  color: #0b036b;
+  margin-bottom: 2.5rem;
+  padding: 0 4rem 0 0;
+  margin: 6rem 0 0 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/style\.scss}line{font-family:\00003348}}
+.student-text {
+  font-weight: 400;
+  padding: 0 4em 0 0;
+  margin-bottom: 5em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/style\.scss}line{font-family:\00003353}}
+.coment {
+  width: 31em;
+  height: 12em;
+  border: solid 4px #ad90ff;
+  border-radius: 15px;
+  box-shadow: 5px 11px 52px -18px rgba(0, 0, 0, 0.15); }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/style\.scss}line{font-family:\00003360}}
+  .coment__text {
+    font-size: 1.25em;
+    font-weight: 400;
+    width: 20em;
+    height: 4.5em;
+    float: right;
+    text-align: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/style\.scss}line{font-family:\00003368}}
+  .coment__sign {
+    font-family: "Lato Semiold", sans-serif;
+    font-weight: 600;
+    padding: 1em;
+    float: right; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/style\.scss}line{font-family:\00003375}}
+.coment-img {
+  position: relative;
+  overflow: visible;
+  padding: 0 0 0 4em;
+  width: 35em;
+  height: 12em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/style\.scss}line{font-family:\00003382}}
+.coment-img::after {
+  content: "";
+  background-image: url("/img/students/Ellipse-30.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 0;
+  top: 1.5em;
+  right: 3em;
+  bottom: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/style\.scss}line{font-family:\00003392}}
+.wraper-foto {
+  position: relative;
+  overflow: hidden; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/style\.scss}line{font-family:\00003396}}
+.foto1 {
+  background-image: url("/img/students/Ellipse-32.png");
+  position: absolute;
+  background-repeat: no-repeat;
+  top: 30em;
+  bottom: 0;
+  right: 0;
+  left: 1em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/style\.scss}line{font-family:\00003405}}
+.foto2 {
+  background-image: url("/img/students/Ellipse-31.png");
+  position: absolute;
+  background-repeat: no-repeat;
+  top: 7em;
+  bottom: 0;
+  right: 0;
+  left: 10em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/style\.scss}line{font-family:\00003415}}
+.foto3 {
+  background-image: url("/img/students/Ellipse-33.png");
+  position: absolute;
+  background-repeat: no-repeat;
+  top: 12em;
+  bottom: 0;
+  right: 0;
+  left: 110em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/style\.scss}line{font-family:\00003424}}
+.foto4 {
+  background-image: url("/img/students/Ellipse-34.png");
+  position: absolute;
+  background-repeat: no-repeat;
+  top: 35em;
+  bottom: 0;
+  right: 0;
+  left: 111em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/style\.scss}line{font-family:\00003433}}
+.foto5 {
+  background-image: url("/img/students/Ellipse-35.png");
+  position: absolute;
+  background-repeat: no-repeat;
+  top: 25em;
+  bottom: 0;
+  right: 0;
+  left: 80em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/style\.scss}line{font-family:\00003442}}
+.foto6 {
+  background-image: url("/img/students/Ellipse-36.png");
+  position: absolute;
+  background-repeat: no-repeat;
+  top: 43em;
+  bottom: 0;
+  right: 0;
+  left: 45em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/style\.scss}line{font-family:\00003454}}
+.wraper-form {
+  background-image: url("/img/footer.svg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/style\.scss}line{font-family:\00003459}}
+.container-form {
+  margin-top: 10em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/style\.scss}line{font-family:\00003462}}
+.form {
+  font-family: "Lato", sans-serif;
+  background-color: #d9d9d9;
+  border: 4px solid #7242ff;
+  border-radius: 10px;
+  width: 49.125rem;
+  height: 38.813rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 2.5em;
+  margin: auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/style\.scss}line{font-family:\00003475}}
+  .form__title {
+    font-weight: 900;
+    color: #0b036b;
+    font-size: 3em;
+    margin-bottom: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/style\.scss}line{font-family:\00003481}}
+  .form__text {
+    font-weight: 400;
+    font-size: 1.125em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/style\.scss}line{font-family:\00003485}}
+  .form__input {
+    width: 23.813em;
+    height: 4.813em;
+    border-radius: 15px;
+    border: solid 1px #794aff;
+    background-color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/style\.scss}line{font-family:\00003492}}
+  .form__btn {
+    width: 13.313rem;
+    height: 3.438rem;
+    border-radius: 10px;
+    background-color: #794bff;
+    color: #fff;
+    font-family: "Lato Semiold", sans-serif;
+    font-weight: 600;
+    font-size: 1.5em;
+    cursor: pointer;
+    border: 1px solid #794bff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/style\.scss}line{font-family:\00003504}}
+  .form__btn:hover {
+    color: #794bff;
+    background-color: #fff;
+    transition: background-color 0.5s ease; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/style\.scss}line{font-family:\00003509}}
+  .form__btn:active {
+    color: tomato; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/style\.scss}line{font-family:\00003515}}
+.container-footer {
+  min-width: 1100px;
+  font-family: "Lato", sans-serif;
+  min-height: 300px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/style\.scss}line{font-family:\00003521}}
+.footer-grid {
+  display: flex;
+  max-width: 1100px;
+  padding: 10em 1em 7em 1em;
+  gap: 2em;
+  flex-flow: nowrap;
+  flex-wrap: wrap; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/style\.scss}line{font-family:\00003530}}
+.fotter__link {
+  font-size: 0.95em;
+  font-weight: 400; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/style\.scss}line{font-family:\00003535}}
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  color: #fff;
+  text-align: left;
+  max-width: 300px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/style\.scss}line{font-family:\00003547}}
+.left::after {
+  content: "";
+  position: absolute;
+  top: 13em;
+  bottom: 0;
+  left: 8em;
+  right: 0;
+  background-color: #fff;
+  border-radius: 1em;
+  width: 0.9em;
+  height: 0.9em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/style\.scss}line{font-family:\00003559}}
+.company,
+.support,
+.links,
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  text-align: left;
+  gap: 1em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/style\.scss}line{font-family:\00003572}}
+.left__icon {
+  display: flex;
+  gap: 1.5em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/style\.scss}line{font-family:\00003576}}
+.be {
+  background: url("/img/svg/be.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1em;
+  height: 1em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/style\.scss}line{font-family:\00003583}}
+.in {
+  background: url("/img/svg/in.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1em;
+  height: 1em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/style\.scss}line{font-family:\00003590}}
+.face {
+  background: url("/img/svg/facebook.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1em;
+  height: 1em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aloe\/Desktop\/ui-desing\/css\/style\.scss}line{font-family:\00003600}}
+.burger-menu {
+  display: none; }
+
+/*# sourceMappingURL=style.css.map */
